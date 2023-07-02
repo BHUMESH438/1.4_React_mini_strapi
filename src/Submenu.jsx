@@ -16,7 +16,8 @@ const Submenu = () => {
   const handleMouseLeave = event => {
     const submenu = submenuContainer.current; //show the current return of the componenet whenever the curser enters the white submenu container
     const { clientX, clientY } = event;
-    console.log(clientX, clientY);
+    // console.log(clientX, clientY);
+    // we are doing this event to ocuur all three sides except top
     const { left, right, bottom } = submenu.getBoundingClientRect();
     // console.log(submenu.getBoundingClientRect());
     if (clientX < left + 1 || clientX > right - 1 || clientY > bottom - 1) {
