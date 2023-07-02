@@ -67,6 +67,8 @@ The flow of the application should look something like this:
 - Fix multiple edge cases.
 - getBoundingClientRect,clientX,clientY,[https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect]
 - useref wont render the component it will simply update the state and to access the variable inside the use ref always use the current.value or ...
+- vw is the witdth of the screen
+- for responside keep the class inside the media in css
 
 #### CSS
 
